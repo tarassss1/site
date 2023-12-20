@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Madrid</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            display: flex;
+            align-items: center;
+        }
+
+        #logo {
+            max-width: 50px; /* Розміри логотипу */
+            margin-right: 10px; /* Відступ між логотипом і текстом */
+        }
+
+        section {
+            max-width: 800px;
+            margin: 2em auto;
+            padding: 1em;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #555;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1em;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #333;
+            color: #fff;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        #news-image {
+        max-width: 100%; /* Зображення буде мати максимальну ширину 100% родительського контейнера */
+        display: block; /* Вирівнювання по центру */
+        margin: 0 auto; /* Вирівнювання по центру */
+        }
+
+        nav {
+            margin-left: auto; /* Розташовує навігацію вправо */
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav li {
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img id="logo" src="https://upload.wikimedia.org/wikipedia/ru/9/98/Real_Madrid.png" alt="Real Madrid Logo"> <!-- Замініть real_madrid_logo.png на шлях до свого зображення логотипу -->
+        <h1>Real Madrid FC</h1>
+        <nav>
+            <ul>
+                <li><a href="#welcome">Ласкаво просимо</a></li>
+                <li><a href="#news">Новини</a></li>
+                <li><a href="#team">Основний склад</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="welcome">
+            <h2>Ласкаво просимо на сайт Real Madrid!</h2>
+            <p>Real Madrid — це великий іспанський футбольний клуб з багатою історією та вражаючими досягненнями. Дізнайтеся більше про наш клуб, його гравців та останні події.</p>
+        </section>
+
+        <section id="news">
+            <h2>Новини</h2>
+            <article>
+                <h3>"Реал" з Луніним впевненою перемогою розпочав новий сезон Ла Ліги</h3>
+                <img id="news-image" src="https://img.tsn.ua/cached/615/tsn-671b840e81dae5015bc4c6345e63d1d0/thumbs/1036x648/a5/8d/f20edc7e1db0bc702f9eb0659a0a8da5.jpeg" alt="News 1">
+                <p>Українському голкіперу вдалося зберегти свої ворота "сухими".
+                    Мадридський "Реал" на виїзді переміг "Атлетик" Більбао в матчі 1-го туру іспанської Ла Ліги сезону-2023/24. Зустріч завершилася з рахунком 0:2.
+                    Підопічні Карло Анчелотті вийшли вперед на 28-й хвилині – автором першого м'яча "вершкових" у новому розіграші Примери став Родріго. Бразилець відзначився з передачі Даніеля Карвахаля.</p>
+            </article>
+            <article>
+                <h3>"Реал" підписав замість Луніна двометрового українського воротаря</h3>
+                <img id="news-image" src="https://novyny.live/cdn-cgi/imagedelivery/4_JwVYxosZqzJ7gIDJgTLA/0e723784-4ba9-4c62-a7ef-7fd84070aa00/16x9" alt="News 2">
+                <p>Мадридський "Реал" підписав контракт з українським воротарем Іллею Волошиним. А от Андрій Лунін натомість може залишити склад “вершкових”.
+                    Про це повідомляє LegionersUA з посиланням на агента футболіста.</p>
+            </article>
+        </section>
+
+        <section id="team">
+            <h2>Основний склад команди</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Ім'я</th>
+                        <th>Позиція</th>
+                        <th>Номер</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Тібо Куртуа</td>
+                        <td>Воротар</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>Даніель Карвахаль</td>
+                        <td>Захисник</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>Едер Мілітао</td>
+                        <td>Захисник</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>Давід Алаба</td>
+                        <td>Захисник</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>Фран Гарсія</td>
+                        <td>Захисник</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>Федеріко Вальверде</td>
+                        <td>Півзахисник</td>
+                        <td>15</td>
+                    </tr>
+                    <tr>
+                        <td>Тоні Крос</td>
+                        <td>Півзахисник</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>Лука Модріч</td>
+                        <td>Півзахисник</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>Джуд Белінгем</td>
+                        <td>Півзахисник</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>Родріго</td>
+                        <td>Нападник</td>
+                        <td>11</td>
+                    </tr>
+                    <tr>
+                        <td>Вінісіус Жуніор</td>
+                        <td>Нападник</td>
+                        <td>7</td>
+                    </tr>
+                    <!-- Додайте інші гравців за необхідністю -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2023 Real Madrid. Усі права захищені.
+    </footer>
+</body>
+</html>
